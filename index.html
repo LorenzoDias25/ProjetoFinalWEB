@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Curriculo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body
+    class="bg-dark text-white d-flex justify-content-center align-items-start min-vh-100 py-5"
+  >
+    <div class="card-container p-4 rounded-4">
+      <div
+        class="d-flex flex-column flex-md-row align-items-center gap-4"
+        style="justify-content: space-evenly"
+      >
+        <div class="profile-pic-wrapper">
+          <img
+            src="/assets/Perfil/PXL_20240227_121754067.jpg"
+            class="profile-pic"
+            alt="Foto de Perfil"
+          />
+        </div>
+        <div>
+          <h2 class="fw-bold">Lorenzo Canabarro Dias</h2>
+          <p class="mb-1" style="display: flex; gap: 10px">
+            <img src="./assets/svg/code-solid.svg" />T.I.
+          </p>
+          <p class="mb-1" style="display: flex; gap: 10px">
+            <img src="./assets/svg/location-dot-solid.svg" />Porto Alegre RS
+          </p>
+          <p class="mb-1" style="display: flex; gap: 10px">
+            <img src="./assets/svg/phone-solid.svg" />(51) 9 9165-1590
+          </p>
+          <p class="mb-0" style="display: flex; gap: 10px">
+            <img
+              src="./assets/svg/envelope-solid.svg"
+            />lorenzodias25adm@gmail.com
+          </p>
+        </div>
+      </div>
+
+      <!-- Skills Dropdown -->
+      <div class="mt-4">
+        <button
+          class="btn dropdown-toggle-btn btn-outline-light w-100 d-flex justify-content-between align-items-center rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#skillsContent"
+          aria-expanded="false"
+        >
+          Skills
+          <i class="bi bi-caret-down-fill toggle-icon"></i>
+        </button>
+      </div>
+      <div class="collapse mt-2" id="skillsContent">
+        <div class="card card-body bg-dark text-white border-light rounded-4">
+          <div class="row mt-1">
+            <!-- Coluna Ferramentas -->
+            <div class="col-md-6 mb-4 mb-md-0">
+              <h6 class="fw-semibold">Hard:</h6>
+              <div class="d-flex flex-wrap gap-3 mt-3">
+                <img src="/assets/skills/java.png" />
+                <img src="/assets/skills/js.png" />
+                <img src="/assets/skills/html-5.png" />
+                <img src="/assets/skills/css-3.png" />
+                <img src="/assets/skills/github.png" />
+                <img src="/assets/skills/android.png" />
+              </div>
+            </div>
+
+            <!-- Coluna Pessoal -->
+            <div class="col-md-6">
+              <h6 class="fw-semibold">Soft:</h6>
+              <div class="row row-cols-3 mt-3">
+                <div class="col mb-2">• Organização</div>
+                <div class="col mb-2">• Pró-atividade</div>
+                <div class="col mb-2">• Flexibilidade</div>
+                <div class="col mb-2">• Responsabilidade</div>
+                <div class="col mb-2">• Resolução de Problemas</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Social Media Dropdown -->
+      <div class="mt-3">
+        <button
+          class="btn dropdown-toggle-btn btn-outline-light w-100 d-flex justify-content-between align-items-center rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#socialMediaContent"
+          aria-expanded="false"
+        >
+          Social Media
+          <i class="bi bi-caret-down-fill toggle-icon"></i>
+        </button>
+        <div class="collapse mt-2" id="socialMediaContent">
+          <div class="card card-body bg-dark text-white border-light rounded-3">
+            <!-- ADICIONE SUAS REDES SOCIAIS AQUI -->
+            <div
+              class="d-flex gap-3 mt-1"
+              style="justify-content: space-around"
+            >
+              <a href="https://www.instagram.com/lorenzo_dias25/"
+                ><img src="/assets/social/instagram.png"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/lorenzo-canabarro-dias-b079632a6/"
+                ><img src="/assets/social/linkedin.png"
+              /></a>
+              <a href="https://github.com/LorenzoDias25"
+                ><img src="/assets/social/github.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--DropDown Idiomas-->
+      <div class="mt-3">
+        <button
+          class="btn dropdown-toggle-btn btn-outline-light w-100 d-flex justify-content-between align-items-center rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#idiomascontent"
+          aria-expanded="false"
+        >
+          Idiomas
+          <i class="bi bi-caret-down-fill toggle-icon"></i>
+        </button>
+        <div class="collapse mt-2" id="idiomascontent">
+          <div class="card card-body bg-dark text-white border-light rounded-3">
+            <!-- Idiomas listados -->
+            <div class="d-flex flex-wrap gap-3 mt-2">
+              <h6 style="display: flex; gap: 10px">
+                <img src="/assets/Idiomas/verifica.png" />Português (BR)
+              </h6>
+              <h6 style="display: flex; gap: 10px">
+                <img src="/assets/Idiomas/verifica.png" />Inglês (Intermediário)
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--DropDown Formação-->
+      <div class="mt-3">
+        <button
+          class="btn dropdown-toggle-btn btn-outline-light w-100 d-flex justify-content-between align-items-center rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#formacaocontent"
+          aria-expanded="false"
+        >
+          Formação
+          <i class="bi bi-caret-down-fill toggle-icon"></i>
+        </button>
+        <div class="collapse mt-2" id="formacaocontent">
+          <div class="card card-body bg-dark text-white border-light rounded-3">
+            <!-- Formações listados -->
+            <div class="mt-0">
+              <p class="mb-0 fw-semibold">Ensino Médio</p>
+              <small class="text-white-50"
+                >Colégio de Aplicação da UFRGS - Dez/2023</small
+              >
+            </div>
+
+            <div class="mt-4">
+              <p class="mb-0 fw-semibold">Técnico em Informática</p>
+              <small class="text-white-50"
+                >Escola Técnica Mesquita - Dez/2025</small
+              >
+            </div>
+
+            <div class="mt-4">
+              <p class="mb-0 fw-semibold">
+                Qualificação Profissional em Arduino
+              </p>
+              <small class="text-white-50"
+                >Escola Técnica Mesquita - Junho/2025</small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--DropDown Experiencia-->
+      <div class="mt-3">
+        <button
+          class="btn dropdown-toggle-btn btn-outline-light w-100 d-flex justify-content-between align-items-center rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#experienciacontent"
+          aria-expanded="false"
+        >
+          Experiência
+          <i class="bi bi-caret-down-fill toggle-icon"></i>
+        </button>
+        <div class="collapse mt-2" id="experienciacontent">
+          <div class="card card-body bg-dark text-white border-light rounded-3">
+            <!-- Experiencias listadas -->
+            <div class="mt-0">
+              <p class="mb-0 fw-semibold">
+                Jovem Aprendiz Eletrônica - Hospital Nossa Senhora da Conceição
+              </p>
+              <small
+                class="text-white-50 mt-2 mb-1"
+                style="display: flex; gap: 10px"
+                ><img
+                  src="/assets/Experiencia/calendar-days-solid.svg"
+                />Agosto/2024 - Julho/2025</small
+              >
+              <div class="row row-cols-3 g-2">
+                <div class="col mb-1">
+                  • Manutenção preventiva sobre supervisão do técnico
+                </div>
+                <div class="col mb-1">
+                  • Auxilio na realização de manutenção corretiva de
+                  equipamentos eletromédicos
+                </div>
+                <div class="col mb-1">
+                  • Realização de manutenção corretiva em equipamentos de menor
+                  complexidade
+                </div>
+                <div class="col mb-1">
+                  • Medição de parâmetros de equipamentos tais como: ventilação
+                  pulmonar, eletrocirurgica, desfibrilação/cardiovesão entre
+                  outros
+                </div>
+                <div class="col mb-1">
+                  • Auxilio na realização de ensaios de segurança eletríca
+                </div>
+                <div class="col mb-1">
+                  • Demais atividades de reparos em equipamentos eletromédicos
+                </div>
+              </div>
+            </div>
+            <div class="mt-3">
+              <p class="mb-0 fw-semibold">
+                Estágio em Informática - Escola Técnica Mesquita
+              </p>
+              <small
+                class="text-white-50 mt-2 mb-1"
+                style="display: flex; gap: 10px"
+                ><img
+                  src="/assets/Experiencia/calendar-days-solid.svg"
+                />Março/2025 - Dezembro/2025</small
+              >
+              <div class="row row-cols-3 g-2">
+                <div class="col mb-1">
+                  • Manutenção de computadores e periféricos
+                </div>
+                <div class="col mb-1">
+                  • Instalação de sistemas operacionais e aplicativos
+                </div>
+                <div class="col mb-1">• Manutenção de rede lógica</div>
+                <div class="col mb-1">• Controle de material pedagógico</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--DropDown Portfolio-->
+      <div class="mt-3">
+        <button
+          class="btn dropdown-toggle-btn btn-outline-light w-100 d-flex justify-content-between align-items-center rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#portfoliocontent"
+          aria-expanded="false"
+        >
+          Portfólio
+          <i class="bi bi-caret-down-fill toggle-icon"></i>
+        </button>
+        <div class="collapse mt-2" id="portfoliocontent">
+          <div class="card card-body bg-dark text-white border-light rounded-3">
+            <!-- Portfolio -->
+            <div class="mt-0">
+              <p class="mb-0 fw-semibold" style="display: flex; gap: 10px">
+                <img src="/assets/Portifolio/github-brands.svg" />CRUD_Flutter
+              </p>
+              <small
+                class="text-white-50 mt-2 mb-1"
+                style="display: flex; gap: 10px"
+                >https://github.com/LorenzoDias25/CRUD_Flutter</small
+              >
+            </div>
+            <div class="mt-2">
+              <p class="mb-0 fw-semibold" style="display: flex; gap: 10px">
+                <img
+                  src="/assets/Portifolio/github-brands.svg"
+                />Desenvolvimento Moblie
+              </p>
+              <small
+                class="text-white-50 mt-2 mb-1"
+                style="display: flex; gap: 10px"
+                >https://github.com/LorenzoDias25/Desenvolvimento-Mobile</small
+              >
+            </div>
+            <div class="mt-2">
+              <p class="mb-0 fw-semibold" style="display: flex; gap: 10px">
+                <img
+                  src="/assets/Portifolio/github-brands.svg"
+                />Desenvolvimento WEB
+              </p>
+              <small
+                class="text-white-50 mt-2 mb-1"
+                style="display: flex; gap: 10px"
+                >https://github.com/LorenzoDias25/Desenvolvimento-WEB</small
+              >
+            </div>
+            <div class="mt-2">
+              <p class="mb-0 fw-semibold" style="display: flex; gap: 10px">
+                <img src="/assets/Portifolio/github-brands.svg" />Engenharia de
+                Software
+              </p>
+              <small
+                class="text-white-50 mt-2 mb-1"
+                style="display: flex; gap: 10px"
+                >https://github.com/LorenzoDias25/Engenharia-de-Software</small
+              >
+            </div>
+            <div class="mt-2">
+              <p class="mb-0 fw-semibold" style="display: flex; gap: 10px">
+                <img
+                  src="/assets/Portifolio/github-brands.svg"
+                />Geracao-Caldeira
+              </p>
+              <small
+                class="text-white-50 mt-2 mb-1"
+                style="display: flex; gap: 10px"
+                >https://github.com/LorenzoDias25/Geracao-Caldeira</small
+              >
+            </div>
+            <div class="mt-2">
+              <p class="mb-0 fw-semibold" style="display: flex; gap: 10px">
+                <img src="/assets/Portifolio/github-brands.svg" />Programação
+                Orientada a Objetos (POO)
+              </p>
+              <small
+                class="text-white-50 mt-2 mb-1"
+                style="display: flex; gap: 10px"
+                >https://github.com/LorenzoDias25/POO-2</small
+              >
+            </div>
+            <div class="mt-2">
+              <p class="mb-0 fw-semibold" style="display: flex; gap: 10px">
+                <img src="/assets/Portifolio/github-brands.svg" />Programação
+                Modular
+              </p>
+              <small
+                class="text-white-50 mt-2 mb-1"
+                style="display: flex; gap: 10px"
+                >https://github.com/LorenzoDias25/Programa-o-Modular-2</small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/script.js" defer></script>
+  </body>
+</html>
